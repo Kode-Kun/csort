@@ -6,6 +6,5 @@ TARGET=csort
 default:
 	${CC} ${SRC} -o ${TARGET} ${CFLAGS} 
 
-
 db:
 	${CC} ${SRC} -o ${TARGET} ${CFLAGS} -g
